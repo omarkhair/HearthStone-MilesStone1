@@ -1,5 +1,5 @@
 package model.cards.minions;
-
+import model.cards.*;
 public class Minion extends Card  {
 	 private int attack ; 
 	 private int maxHP ; 

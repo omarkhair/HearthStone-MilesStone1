@@ -1,7 +1,8 @@
 package model.heroes;
 
 import java.util.ArrayList;
-
+import model.cards.*;
+import model.cards.minions.*;
 public abstract class Hero {
 	private String name;
 	private int currentHP;
