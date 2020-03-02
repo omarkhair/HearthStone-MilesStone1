@@ -1,5 +1,5 @@
 package model.cards.spells;
-
+import model.cards.*;
 abstract public class Spell extends Card{
 	public Spell() {
 			

@@ -1,7 +1,7 @@
 package model.cards.spells;
-
-public class KillCommand extends Spells implements MinionTargetSpell,HeroTargetSpell{
+import model.cards.*; 
+public class KillCommand extends Spell implements MinionTargetSpell,HeroTargetSpell{
 	public KillCommand() {
-		super("Kill Command",3,COMMON);
+		super("Kill Command",3,Rarity.COMMON);
 	}
 }

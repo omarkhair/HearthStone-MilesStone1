@@ -1,9 +1,9 @@
 package model.cards.spells;
-import 
+import model.cards.*; 
 public class CurseOfWeakness extends Spell implements AOESpell{
 
 	public CurseOfWeakness() {
-		super("Curse of Weakness",2,RARE);
+		super("Curse of Weakness",2,Rarity.RARE);
 	}
 	
 }
