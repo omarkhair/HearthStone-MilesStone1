@@ -16,7 +16,7 @@ public class Game {
 	/*this constructor randomly chooses the starting hero giving him one mana*/
 	public Game(Hero p1, Hero p2) {
 		firstHero=p1;
-		secondHero=p1;
+		secondHero=p2;
 		Random rand = new Random(); 
 		int x=rand.nextInt(2);
 		if(x==0) {
