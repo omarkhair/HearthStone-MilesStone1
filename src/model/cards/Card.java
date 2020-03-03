@@ -6,7 +6,7 @@ abstract public class Card {
 	public Card() {}
 	public Card(String name,int manaCost,Rarity rarity) {
 		this.name = name ; 
-		this.manaCost = Math.min(manaCost,10); 
+		setManaCost(manaCost);
 		this.rarity = rarity ;
 	}
 	public String getName() {

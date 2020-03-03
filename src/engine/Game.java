@@ -2,10 +2,10 @@ package engine;
 import model.heroes.*;
 import java.util.*;
 public class Game {
-	Hero firstHero;
-	Hero secondHero;
-	Hero currentHero;
-	Hero opponent; 
+	private Hero firstHero;
+	private Hero secondHero;
+	private Hero currentHero;
+	private Hero opponent; 
 	
 
 
@@ -22,10 +22,12 @@ public class Game {
 		if(x==0) {
 			currentHero=firstHero;
 			opponent=secondHero;
-			firstHero.setCurrentManaCrystals(1);
+			firstHero.setTotalManaCrystals(1);
+			firstHero.setCurrentManaCrystals(1); //current or total or both??
 		}else {
 			currentHero=secondHero;
 			opponent=firstHero;
+			secondHero.setTotalManaCrystals(1);
 			secondHero.setCurrentManaCrystals(1);
 		}
 	}
