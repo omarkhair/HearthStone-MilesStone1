@@ -14,12 +14,5 @@ public class FullHandException extends HearthstoneException {
 		burned=b;
 	}
 
-	public Card getBurned() {
-		return burned;
-	}
-	
-	public void setBurned(Card burned) {
-		this.burned = burned;
-	}
 
 }
